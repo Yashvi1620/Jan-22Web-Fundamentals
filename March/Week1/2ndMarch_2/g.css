@@ -1,0 +1,93 @@
+
+
+body {
+    background-color: rgb(233, 138, 209);
+    
+}
+
+.item1 {
+    border: 10px solid lightpink;
+    position: absolute;
+    
+    
+    background-color: lightpink;
+    border-radius: 1vh;
+}
+.item2 {
+    border: 10px solid lightpink;
+    position: absolute;
+    
+    left: 25vw;
+    background-color: lightpink;
+    border-radius: 1vh;
+}
+
+.item3 {
+    border: 10px solid lightpink;
+    position: absolute;
+    top: 55vh;
+    right: 27vw;
+    background-color: lightpink;
+    border-radius: 1vh;
+}
+.item4 {
+    border: 10px solid lightpink;
+    position: absolute;
+    
+    right: 27vw;
+    background-color: lightpink;
+    border-radius: 1vh;
+}
+.item5 {
+    border: 10px solid lightpink;
+    position: absolute;
+   
+    right: 8vh;
+    background-color: lightpink;
+    border-radius: 1vh;
+}
+.item6 {
+    border: 10px solid lightpink;
+    position: absolute;
+    top: 55vh;
+    right: 8vh;
+    background-color: rgb(184, 136, 169);
+    border-radius: 1vh
+}
+.item12 {
+    border: 10px solid lightpink;
+    position: absolute;
+    top: 55vh;
+    left: 27vw;
+    background-color: lightpink;
+    border-radius: 1vh;
+}
+.item11 {
+    border: 10px solid lightpink;
+    position: absolute;
+    top: 55vh;
+    left: 2vw;
+    background-color: lightpink;
+    border-radius: 1vh;
+}
+
+img {
+    background-color: lightpink;
+    border-radius: 1vh;
+    width: 19vw;
+    height: 40vh;
+}
+
+button{
+    border-radius: 2vh;
+    padding: 1vh;
+    margin-left: 1vh;
+    background-color: transparent;
+}
+img:hover{
+    /* border: 2px dotted black; */
+    background-color: #09165e9c;
+}
+button:hover{
+    background: linear-gradient(to right, #09165e9c, bisque);
+}

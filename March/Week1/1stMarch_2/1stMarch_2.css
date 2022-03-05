@@ -1,0 +1,13 @@
+.main{
+    text-align: center;
+    align-items: center;
+    
+}
+body{
+    margin-top: 10%;
+    background-color: lightblue;
+}
+input{
+    background-color: lightgreen;
+    
+}
