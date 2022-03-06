@@ -1,8 +1,10 @@
 function fizzbuzz(){
     let num=prompt("Enter tne number");
     num=parseInt(num);
-    (num ===NaN)
-    document.write("Enter a valid number");
+    if (isNaN(num)) {
+        document.write("Enter a valid number!!!");
+    }
+    else {
     for(let i=1;i<=num;i++){
         if(i%3===0 && i%5===0){
             document.write("fizzbuzz" );
@@ -23,6 +25,7 @@ function fizzbuzz(){
         }
         
     }
+  }      
     
     
 }
