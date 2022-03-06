@@ -1,4 +1,4 @@
-var counter = [0,0,0,0,0,0,0,0]
+var counter = [0,0,0,0,0,0,0,0,0]
 function like(n) {
     counter[n] += 1;
     document.getElementById(`disp${n}`).innerText=counter[n];
