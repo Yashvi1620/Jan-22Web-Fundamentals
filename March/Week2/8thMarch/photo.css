@@ -1,0 +1,51 @@
+
+body{
+    margin: 10px;
+    background-color: rgb(212, 204, 212);
+    
+}
+h1{
+    text-align: center;
+    color: rgb(170, 89, 218);
+    font-size: 8vh;
+    border: 3px solid;
+    margin: 0px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center
+}
+.image-pop{
+    width: 56vh;
+    height: 30vh;
+    border: 2px solid rgb(98, 7, 7);
+    
+}
+.zoom {
+    display: none;
+}
+button{
+    border:none;
+}
+.popup > img {
+    height: 54vh;
+    width: 37vw;
+}
+.popup{
+    border: 2px solid rgb(223, 48, 170);
+    text-align: center;
+   
+    position: absolute;
+    top: 10vh;
+    left: 30%;
+}
+#cross {
+    position: absolute;
+    right: 2px;
+    top: 5px;
+}
+img:hover{
+    border: 5px solid rgb(65, 4, 73);
+    
+}
