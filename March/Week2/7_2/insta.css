@@ -1,0 +1,170 @@
+
+#main{
+    width: 296px;
+    height: 600px;
+    border: 10px black solid;
+    border-radius: 20px  ;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 35%;
+    background-color: white
+}
+body {
+    margin: 0px;
+    text-align: center;
+    color: white;
+    display: flex;
+    background-size: cover;
+    font-family: 'Baloo 2', cursive;
+    background: linear-gradient(to right, rgb(206, 183, 204), rgb(216, 125, 145));
+}
+
+.left{
+    font-size:x-large;
+    font-weight: 500px;
+    float: left;
+    color: black;
+}
+.flt-ryt {
+    float: right;
+    margin-right: 0vh;
+    margin-left: 4vh;
+   text-align: right;
+  
+    margin-top: 1px;
+}
+.right {
+    float: right;
+}
+#space {
+    background-color: rgb(80, 76, 76);
+    height: 1vh;
+    width: 14vh;
+    margin: 9px 0px 0px 36px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.home {
+    
+    padding-top: 2vh;
+    display: block;
+    
+}
+.flex {
+    display: flex;
+}
+.icon {
+    width: 2vw;
+    padding: 1vh;
+}
+.top {
+    position: fixed;
+    
+    padding-top: 1vh;
+}
+.icons {
+    width: 1.5vw;
+    height: 3vh;
+    position: relative;
+    left: 17vh;
+}
+.insta {
+    width: 6vw;
+    padding: 5px;
+}
+.post {
+    margin-top: 6vh;
+}
+.dot {
+    float: right;
+}
+.left {
+    float: left;
+}
+#name{
+    padding-top: 1vh;
+    float: left;
+}
+.pic {
+    width: 19vw;
+    height: 55vh;
+}
+.circle {
+    border-radius: 4vh;
+    height: 5vh;
+    width: 5vh;
+}
+.cmt{
+    width: 1.5vw;
+    height: 3vh;
+    float: left;
+    padding-top: 11px
+}
+.search{
+    display: block;
+}
+.search > input {
+    padding: 5px;
+    border-radius: 1vh;
+    border: none;
+    width: 17vw;
+    background-color: #7a7979;
+    margin: 2vh;
+}
+.images {
+    width: 19.3vw;
+    
+    flex-wrap: wrap;
+}
+.hws{
+    height: 23.5vh;
+    width: 6.43vw;
+}
+h1 {
+        position: relative;
+        font-size: xx-large;
+        background-color: aqua;
+        
+}
+.detal{
+    padding: 1vh;
+}
+.sid{
+    height: 5vh;
+    float: right;
+    width: 2vw;
+}
+.text {
+    position: relative;
+    top: 1vh;
+}
+.btm {
+    display: flex;
+    background-color: black;
+    position: fixed;
+    width: 19.3%;
+    top: 88.6%;
+    justify-content: space-around;
+}
+.none{
+    display: none;
+}
+ button {
+    border: none;
+    background: transparent;
+}
+footer{
+    position: fixed;
+}
+.profile-page{
+     height:550px;
+     width: 300px;
+}
+.activity{
+    height: 550px;
+    width:300px;
+}
+.reels{
+    height:550px ;
+    width: 300px;
+}
