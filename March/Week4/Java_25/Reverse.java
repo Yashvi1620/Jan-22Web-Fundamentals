@@ -6,7 +6,7 @@ public class Reverse
     {
        int rows=4;
          
-        //Printing upper half of the pattern
+        
          
         for (int i = rows; i >= 1; i--) 
         {
